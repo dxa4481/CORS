@@ -93,7 +93,7 @@ Simply put, Google messed up when they implemented `navigator.sendBeacon` and ac
 
 This alone isn't a big deal, browsers have security problems all the time; they're usually fixed quickly.
 
-What was concerning was the number of people in the thread who didn't understand the issue, and wanted to change the CORS rules instead of fix the issue. Here are a few comments from the thread:
+What was concerning was this issue was open for 2 years, in part because of people in the thread who didn't understand the issue, and wanted to change the CORS rules instead of fix the issue. Here are a few comments from the thread:
 
 > For what it's worth, the requirement that we do a preflight for certain Content-Type values is a very silly one.
 
@@ -101,6 +101,5 @@ and
 
 > Since it's hard~impossible to predict the fallout from changing this behavior now, we're probably stuck with it. Well, at least for the features that have already shipped. Perhaps we could remove this requirement for new features moving forward?
 
-It was also concerning this issue stayed open for 2 years before it was fixed.
 
 To be clear, I'm not writing this to shame anyone, but simply to shed light on the issue, and illustrate how we almost lost what is in my view, an important built in browser protection against CSRF.

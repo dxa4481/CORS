@@ -83,7 +83,7 @@ _____________________________
 
 If you haven't figured it out already, JSON API's should strictly enforce the `application/json` content-type. This makes the request `non-simple`, and forces the browser to pre-flight all cross-origin requests.
 
-Countless web applications take no steps to protect against CSRF, so this added safety net for JSON API's has been comforting to me. There have been many cases when doing bug bounties or pen-tests where it was clear no CSRF protection was added by the developer. For modern RESTFUL applications that only communicate over JSON these developers had a nice safety net they didn't even know about.
+Countless web applications take no steps to protect against CSRF, so this added safety net for JSON API's has been comforting to me. There have been many cases when doing bug bounties or pen-tests where it was clear no CSRF protection was added by the developer. For modern RESTFUL applications that only communicate over JSON these developers have a nice safety net they don't even know about.
 
 ## Why Did Google Almost Take It Away?
 
